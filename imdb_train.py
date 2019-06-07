@@ -33,7 +33,6 @@ class Schedule:
 
 
 
-
 # Load Base
 image, gender, age  = ft.load_data("serializer/MATimdb64.mat")
 
