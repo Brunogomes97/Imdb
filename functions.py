@@ -23,7 +23,6 @@ def load(name):
     with open(name+'.pkl', 'rb') as f:
         return pkl.load(f)
 
-## thanks https://github.com/mari-linhares/tensorflow-brasil
 def show(num_dados,data):
     print('Exemplos de %d imagens da base de treino' % num_dados)
     
