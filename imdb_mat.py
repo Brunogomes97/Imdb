@@ -15,7 +15,6 @@ Age -> idade (para classificação-> Intervalos de idade| regressão-> formataç
 dob-> data de nasci(n é necessário para o pre-process)
 secondfacescore-> imagens em q há mais de um rosto detectado(descartar)
 
-
 '''
 
 db="imdb"
