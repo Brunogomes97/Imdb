@@ -11,7 +11,7 @@ import scipy.io
 faceScore -> confiança do detector de faces nas imagens
 FullPath-> Diretorio da imagem na base
 gender -> genero das pessoas
-Age -> idade (para classificação-> Intervalos de idade| regressão-> formatação atual)
+Age -> idade 
 dob-> data de nasci(n é necessário para o pre-process)
 secondfacescore-> imagens em q há mais de um rosto detectado(descartar)
 
