@@ -79,7 +79,7 @@ Para entender e criar um método de carregar e filtrar erros na base veja o Note
    
    ->Tensorboard: Ferramenta de visualização e depuração da rede.
    
-*O modelo pré-treinado produzido pela WRN (Treinado no IMDB e testado na WIKI) pode ser baixado [aqui]
+*O modelo pré-treinado produzido pela WRN (Treinado no IMDB e testado na WIKI) pode ser baixado [aqui](https://1drv.ms/u/s!AtjWonwDFRIckHgtAl2R9ykrhNpt?e=7EWO8x)
 
 
 Modelos Futuros a serem testados:
