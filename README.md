@@ -30,9 +30,10 @@ Para entender e criar um método de carregar e filtrar erros na base veja o Note
  
  Para este treinamento foi utilizada inicialmente uma WideResNet com resolução de imagem (64 x 64), aliado a usos de bibliotecas de processamento de imagens rodando por baixo do treinamento. 
  
- Modelos de Rede:
+- Modelos de Rede
  
-- WideResNet: 
+  ->WideResNet:
+  
   -> Def: Arquitetura de rede neural baseada em blocos de convolução e normalização de Batchs. Investe na largura das rede para diminuir a profundidade de camadas. O modelo adotado neste teste foi de 16 camadas de convolução.
   
   -> Artigo: https://arxiv.org/abs/1605.07146
