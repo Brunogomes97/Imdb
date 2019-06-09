@@ -32,39 +32,39 @@ Para entender e criar um método de carregar e filtrar erros na base veja o Note
  
  Modelos de Rede:
  
--> WideResNet: 
-  - Def: Arquitetura de rede neural baseada em blocos de convolução e normalização de Batchs. Investe na largura das rede para diminuir a profundidade de camadas. O modelo adotado neste teste foi de 16 camadas de convolução.
+- WideResNet: 
+  -> Def: Arquitetura de rede neural baseada em blocos de convolução e normalização de Batchs. Investe na largura das rede para diminuir a profundidade de camadas. O modelo adotado neste teste foi de 16 camadas de convolução.
   
-  - Artigo: https://arxiv.org/abs/1605.07146
+  -> Artigo: https://arxiv.org/abs/1605.07146
   
-  - Implementação: O porte para o framework Keras pode ser encontrada neste [repositório](https://github.com/asmith26/wide_resnets_keras)
-  - Implementação: A modificação da rede para estimar idade e gênero ao mesmo tempo pode ser encontrada [aqui]
-  
+  -> Implementação: O porte para o framework Keras pode ser encontrada neste [repositório](https://github.com/asmith26/wide_resnets_keras)
+  -> Implementação: A modificação da rede para estimar idade e gênero ao mesmo tempo pode ser encontrada [aqui]
  (https://github.com/yu4u/age-gender-estimation/blob/master/wide_resnet.py)
   
   
--> Métodos de processamento de Imagem(Augmentation):
-  - Mixup: Técnica de processamento de imagem que "mixa" imagens para aumentar a generalização dos testes. O mixup se baseia em interpolação linear de imagens para criar mais dados para treino.
-  
-          *Informações sobre: https://www.dlology.com/blog/how-to-do-mixup-training-from-image-files-in-keras/  
-          *Artigo: https://arxiv.org/pdf/1710.09412.pdf
-          *Port para o Keras pode ser encontrado [aqui](https://github.com/yu4u/age-gender-estimation/blob/master/mixup_generator.py)
-  
-  -Random Eraser: Técnica de processamento que visa gerar várias imagens com retângulos randômicos por cima de uma mesma imagem. A ideia é apartir da oclusão de informações conseguir evitar o Overfitting da rede.
-  
-          *Artigo: https://arxiv.org/abs/1708.04896
-          
-          *Repositório: https://github.com/zhunzhong07/Random-Erasing
-          
-          *Port para o Keras pode ser encontrado [aqui](https://github.com/yu4u/age-gender-estimation/blob/master/random_eraser.py)
-          
-->Callbacks utilizados:
+- Métodos de processamento de Imagem(Augmentation):
 
-   -Checkpoint: Salva os pesos com os melhores desempenhos ao longo das epocas de treinamento
+  -> Mixup: Técnica de processamento de imagem que "mixa" imagens para aumentar a generalização dos testes. O mixup se baseia em interpolação linear de imagens para criar mais dados para treino.
+  
+   Informações sobre: https://www.dlology.com/blog/how-to-do-mixup-training-from-image-files-in-keras/  
+   Artigo: https://arxiv.org/pdf/1710.09412.pdf
+   Port para o Keras pode ser encontrado [aqui](https://github.com/yu4u/age-gender-estimation/blob/master/mixup_generator.py)
+  
+  -> Random Eraser: Técnica de processamento que visa gerar várias imagens com retângulos randômicos por cima de uma mesma imagem. A ideia é apartir da oclusão de informações conseguir evitar o Overfitting da rede.
+  
+  Artigo: https://arxiv.org/abs/1708.04896
+          
+  Repositório: https://github.com/zhunzhong07/Random-Erasing
+          
+  Port para o Keras pode ser encontrado [aqui](https://github.com/yu4u/age-gender-estimation/blob/master/random_eraser.py)
+          
+- Callbacks utilizados:
+
+   ->Checkpoint: Salva os pesos com os melhores desempenhos ao longo das epocas de treinamento
    
-   -LRSchedule: Diminui a Learning Rate da rede conforme a quantidade de épocas vai passando.
+   ->LRSchedule: Diminui a Learning Rate da rede conforme a quantidade de épocas vai passando.
    
-   -Tensorboard: Ferramenta de visualização e depuração da rede.
+   ->Tensorboard: Ferramenta de visualização e depuração da rede.
    
 *O modelo pré-treinado produzido pela WRN (Treinado no IMDB e testado na WIKI) podem ser baixado [aqui]
 
@@ -79,8 +79,8 @@ Modelos Futuros a serem testados:
   
 Outras bases:
 
-- FaceScrub
-- UTK dataset
+  FaceScrub
+  UTK dataset
 
           
   
