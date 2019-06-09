@@ -38,16 +38,17 @@ Para entender e criar um método de carregar e filtrar erros na base veja o Note
   -> Artigo: https://arxiv.org/abs/1605.07146
   
   -> Implementação: O porte para o framework Keras pode ser encontrada neste [repositório](https://github.com/asmith26/wide_resnets_keras)
-  -> Implementação: A modificação da rede para estimar idade e gênero ao mesmo tempo pode ser encontrada [aqui]
- (https://github.com/yu4u/age-gender-estimation/blob/master/wide_resnet.py)
+  -> Implementação: A modificação da rede para estimar idade e gênero ao mesmo tempo pode ser encontrada [aqui](https://github.com/yu4u/age-gender-estimation/blob/master/wide_resnet.py)
   
   
 - Métodos de processamento de Imagem(Augmentation):
 
   -> Mixup: Técnica de processamento de imagem que "mixa" imagens para aumentar a generalização dos testes. O mixup se baseia em interpolação linear de imagens para criar mais dados para treino.
   
-   Informações sobre: https://www.dlology.com/blog/how-to-do-mixup-training-from-image-files-in-keras/  
+   Informações sobre: https://www.dlology.com/blog/how-to-do-mixup-training-from-image-files-in-keras/ 
+   
    Artigo: https://arxiv.org/pdf/1710.09412.pdf
+   
    Port para o Keras pode ser encontrado [aqui](https://github.com/yu4u/age-gender-estimation/blob/master/mixup_generator.py)
   
   -> Random Eraser: Técnica de processamento que visa gerar várias imagens com retângulos randômicos por cima de uma mesma imagem. A ideia é apartir da oclusão de informações conseguir evitar o Overfitting da rede.
