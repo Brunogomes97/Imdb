@@ -26,6 +26,9 @@ Arquivos necessários para a extração e classificação IMDB-Wiki Dataset.
 
 Para entender e criar um método de carregar e filtrar erros na base veja o Notebook IMDB_analise. Para o treinamento, há outras importações de outros repositórios a serem feitas.
 
+
+
+
  - Treinamento
  
  Para este treinamento foi utilizada inicialmente uma WideResNet com resolução de imagem (64 x 64), aliado a usos de bibliotecas de processamento de imagens rodando por baixo do treinamento. 
@@ -39,7 +42,11 @@ Para entender e criar um método de carregar e filtrar erros na base veja o Note
   -> Artigo: https://arxiv.org/abs/1605.07146
   
   -> Implementação: O porte para o framework Keras pode ser encontrada neste [repositório](https://github.com/asmith26/wide_resnets_keras)
+  
   -> Implementação: A modificação da rede para estimar idade e gênero ao mesmo tempo pode ser encontrada [aqui](https://github.com/yu4u/age-gender-estimation/blob/master/wide_resnet.py)
+  
+  
+  
   
   
 - Métodos de processamento de Imagem(Augmentation):
@@ -59,7 +66,10 @@ Para entender e criar um método de carregar e filtrar erros na base veja o Note
   Repositório: https://github.com/zhunzhong07/Random-Erasing
           
   Port para o Keras pode ser encontrado [aqui](https://github.com/yu4u/age-gender-estimation/blob/master/random_eraser.py)
-          
+  
+  
+  
+  
 - Callbacks utilizados:
 
    ->Checkpoint: Salva os pesos com os melhores desempenhos ao longo das epocas de treinamento
