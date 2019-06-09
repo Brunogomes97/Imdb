@@ -7,6 +7,7 @@ Extração e Classificação da base do imdb para idade e gênero
 Arquivos necessários para a extração e classificação IMDB-Wiki Dataset.
 
 - Rápida definição dos arquivos:
+
 -> [IMDB_analise](https://github.com/Brunogomes97/Imdb/blob/master/IMDB_Analise.ipynb): Analisando o dataset antes e após a realização de processamento, métodos e afins.
 
 -> [ImagePredict](https://github.com/Brunogomes97/Imdb/blob/master/ImagePredict%20.ipynb): Testando a rede pré-trinada no dataset Wiki.
